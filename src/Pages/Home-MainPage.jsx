@@ -292,6 +292,36 @@ import {
       </>
     );
   };
+  const Cruise = () => {
+    return (
+      <>
+        <Flex
+          flexWrap="wrap"
+          justify="space-between"
+          gap="2"
+          w={isLargerThan768 ? "50%" : "90%"}
+        >
+          <InputGroup>
+            <InputLeftAddon children={isLargerThan492 ? "Pick-up" : "PL"} />
+            <Input placeholder="Enter a location" />
+          </InputGroup>
+          <InputGroup>
+            <InputLeftAddon
+              children={isLargerThan492 ? "Pick-up date" : "PD"}
+            />
+            <Input type="date" />
+          </InputGroup>
+          <InputGroup>
+            <InputLeftAddon
+              children={isLargerThan492 ? "Drop-off date" : "DD"}
+            />
+            <Input type="date" placeholder="Basic usage" />
+          </InputGroup>
+        </Flex>
+        <Button colorScheme="blue">Search</Button>
+      </>
+    );
+  };
 
   const Flights = () => {
     return (
@@ -380,6 +410,7 @@ import {
                   <TabSection name={"Cars"} />
                   <TabSection name={"Packages"} />
                   <TabSection name={"Things to do"} />
+                  <TabSection name={"Cruise"} />
                 </Flex>
               </TabList>
               <TabPanels>
@@ -397,6 +428,9 @@ import {
                 </TabPanel>
                 <TabPanel>
                   <Stays />
+                </TabPanel>
+                <TabPanel>
+                  <Cruise />
                 </TabPanel>
               </TabPanels>
             </Tabs>
