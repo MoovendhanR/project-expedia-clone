@@ -193,7 +193,7 @@ function HotelsDetailsViews() {
                   .map((_, i) => (
                     <StarIcon
                       key={i}
-                      color={i < hotelData.rating ? "teal.500" : "gray.300"}
+                      color={i < hotelData.rating ? "yellow.500" : "gray.300"}
                     />
                   ))}
               </Box>
@@ -237,7 +237,7 @@ function HotelsDetailsViews() {
             </Box>
             <Box w={isLargerThan768 ? "40%" : "90%"}>
               <Box p={3}>
-                <Button w="100%" colorScheme="blue" onClick={handleReserve}>
+                <Button w="100%" colorScheme="red" onClick={handleReserve}>
                   Reserve
                 </Button>
               </Box>

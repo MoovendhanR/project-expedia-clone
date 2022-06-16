@@ -3,6 +3,7 @@ import {Route,Routes} from "react-router-dom"
 import HomePage from "../Pages/Home-MainPage";
 import HotelsDetails from "../Pages/HotelsDetails";
 import HotelsDetailsViews from "../Pages/HotelsDetailsViews";
+import Maintainance from "../Pages/Maintainance";
 import PastTrips from "../Pages/PastTrips";
 import SignIn from "../Pages/SignIn";
 import SignUp from "../Pages/SignUp";
@@ -19,6 +20,8 @@ const AllRoutes=()=>{
             <Route path="/detailsview/:id" element={<HotelsDetailsViews/>}/>
             <Route path="/trips" element={<PastTrips/>}/>
             <Route path="/useraccount" element={<UserProfile/>}/>
+            <Route path="/support" element={<Maintainance/>}/>
+
         </Routes>
     )
 

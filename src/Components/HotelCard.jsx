@@ -120,7 +120,7 @@ export const HotelCard = ({ data }) => {
           </Box>
         </Link>
         <Box h="20px" display="flex" alignItems="baseline" justifyContent="space-between">
-          <Badge borderRadius="full" px="2" colorScheme="teal" mt="1">
+          <Badge borderRadius="full" px="2" colorScheme="orange" mt="1">
             {city}
           </Badge>
           <Spacer />
@@ -178,11 +178,11 @@ export const HotelCard = ({ data }) => {
             </Box>
           </Box>
           <Box display="flex" mt="2" alignItems="center" h="25px" justifyContent="space-between">
-            <Badge borderRadius="full" px="2" colorScheme="teal" mt="1">
+            <Badge borderRadius="full" px="2" colorScheme="yellow" mt="1">
               {review}
             </Badge>
             <Spacer />
-            <Badge borderRadius="full" px="2" colorScheme="teal" mt="1">
+            <Badge borderRadius="full" px="2" colorScheme="yellow" mt="1">
               Rooms Left {roomsLeft}
             </Badge>
           </Box>
@@ -192,7 +192,7 @@ export const HotelCard = ({ data }) => {
               .map((_, i) => (
                 <StarIcon
                   key={i}
-                  color={i < rating ? "teal.500" : "gray.300"}
+                  color={i < rating ? "pink.500" : "gray.300"}
                 />
               ))}
             <Spacer />
