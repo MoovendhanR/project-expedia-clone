@@ -21,6 +21,11 @@ const AllRoutes=()=>{
             <Route path="/trips" element={<PastTrips/>}/>
             <Route path="/useraccount" element={<UserProfile/>}/>
             <Route path="/support" element={<Maintainance/>}/>
+            <Route path="/feedback" element={<Maintainance/>}/>
+            <Route path="/english" element={<Maintainance/>}/>
+            <Route path="/points" element={<Maintainance/>}/>
+
+
 
         </Routes>
     )

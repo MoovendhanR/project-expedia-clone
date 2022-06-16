@@ -105,7 +105,7 @@ function Navbar() {
           <Link mt={5} to="/favourite">
             <Text _hover={{ color: hoverColor }}>Lists of favourites</Text>
           </Link>
-          <Link to="/rewards" mt={5}>
+          <Link to="/points" mt={5}>
             <Text _hover={{ color: hoverColor }}>Expedia rewards</Text>
           </Link>
         </PopoverBody>
@@ -240,7 +240,7 @@ function Navbar() {
               {isLargerThan1280 ? (
                 <Stack direction="row" spacing={8} align="center" p="1">
                   <Text _hover={{ color: hoverColor }}>
-                    <Link to="/language">
+                    <Link to="/english">
                       <Icon as={BiWorld} w={3.5} h={3.5} />
                       &nbsp; English
                     </Link>
