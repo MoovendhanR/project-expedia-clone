@@ -26,6 +26,7 @@ import {
     HStack,
     Spinner,
     Heading,
+    // Center,
     // Spacer,
     // Image,
     // Stack,
@@ -39,12 +40,7 @@ import {
   const [isLargerThan768] = useMediaQuery("(min-width: 768px)");
   const [isLargerThan492] = useMediaQuery("(min-width: 492px)");
 
-    
-//   const counter = useCounter({
-//     max: 10,
-//     min: 0,
-//     step: 1,
-//   });
+
 
   const Stays = () => {
     const [stayData, setStayData] = useState({
@@ -440,7 +436,7 @@ import {
             maxW="container.xl"
             mt="50px"
             borderRadius="10px"
-            bgImage="url('https://a.travel-assets.com/travel-assets-manager/ux-887/Global-HP-Hero-928x398.jpg')"
+            bgImage="url('https://a.travel-assets.com/travel-assets-manager/cmct-5183/US-CA-MX-HP-Hero-928x398.jpg')"
             bgPosition="center"
             bgRepeat="no-repeat"
             bgSize="cover"
@@ -487,7 +483,7 @@ import {
             boxShadow={BoxShadow}
             maxW="container.xl"
             borderRadius="10px"
-            bgImage="url('https://a.travel-assets.com/travel-assets-manager/gmvd-1482-bookearly-emea/667x320.jpg')"
+            bgImage="url('https://a.travel-assets.com/travel-assets-manager/cmct-3517/3517-HP-Hero-D-928x398.jpg')"
             bgPosition="center"
             bgRepeat="no-repeat"
             bgSize="cover"
@@ -706,9 +702,9 @@ import {
              w="20%"
             ></Container>
              </Flex>
-
-      
-
+             <br/>
+              <Text fontSize="23px">Be inspired and discover more with Expedia</Text>
+              <Text color="blue"   _hover={{color:"red",cursor:"pointer"}}>Discover new places and experiences</Text>
     </Container>
   );
     

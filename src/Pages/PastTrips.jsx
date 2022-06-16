@@ -14,7 +14,7 @@ import {
 import { BoxShadow } from "../Components/Variables";
 import axios from "axios";
 // import { isLogin } from "";
-import API from "../API";
+import API from "../Components/API";
 import { useSelector } from "react-redux";
 
 function PastTrips() {

@@ -36,7 +36,7 @@ import {
 } from "@chakra-ui/react";
 import { StarIcon } from "@chakra-ui/icons";
 import IconWithText from "../Components/IconWithText";
-import API from "../API";
+import API from "../Components/API";
 import { useSelector } from "react-redux";
 
 const amenitiesLeft = [

@@ -21,7 +21,7 @@ import {
   Spinner,
 } from "@chakra-ui/react";
 import axios from "axios";
-import API from "../API";
+import API from "../Components/API";
 import { useParams } from "react-router-dom";
 import { HotelCard } from "../Components/HotelCard";
 

@@ -14,7 +14,7 @@ import {
   useToast,
 } from "@chakra-ui/react";
 import axios from "axios";
-import API from "../API";
+import API from "./API";
 import { BoxShadow } from "./Variables";
 import { useSelector } from "react-redux";
 
