@@ -1,5 +1,6 @@
 import React from "react";
 import {Route,Routes} from "react-router-dom"
+import FavouriteItems from "../Pages/FavouriteItems";
 import HomePage from "../Pages/Home-MainPage";
 import HotelsDetails from "../Pages/HotelsDetails";
 import HotelsDetailsViews from "../Pages/HotelsDetailsViews";
@@ -21,13 +22,12 @@ const AllRoutes=()=>{
             <Route path="/detailsview/:id" element={<HotelsDetailsViews/>}/>
             <Route path="/trips" element={<PastTrips/>}/>
             <Route path="/useraccount" element={<UserProfile/>}/>
+            <Route path="/favourite" element={<FavouriteItems/>}/>
             <Route path="/support" element={<Maintainance/>}/>
             <Route path="/feedback" element={<Maintainance/>}/>
             <Route path="/english" element={<Maintainance/>}/>
             <Route path="/points" element={<Maintainance/>}/>
             <Route path="/*" element={<NotFound/>}/>
-
-
 
 
         </Routes>
