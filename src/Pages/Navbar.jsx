@@ -138,7 +138,7 @@ function Navbar() {
           </Center>
         </PopoverHeader>
         <PopoverBody>
-          <Link to="/account">Account</Link>
+          <Link to="/useraccount">Account</Link>
           <br />
           <Link to="/favourite">Lists of favourites</Link>
           <br />

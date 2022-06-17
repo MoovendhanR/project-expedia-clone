@@ -57,7 +57,7 @@ function PastTrips() {
           >
             <Table variant="simple">
               <Thead>
-                <Tr bgColor="#2490fe">
+                <Tr bgColor="grey">
                   <Th color="white">Sr.No</Th>
                   <Th color="white">Hotel Name</Th>
                   <Th color="white">Rooms Book</Th>

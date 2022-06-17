@@ -35,7 +35,7 @@ import {
   useToast,
 } from "@chakra-ui/react";
 import { StarIcon } from "@chakra-ui/icons";
-import IconWithText from "../Components/IconWithText";
+import {IconWithText} from "../Components/IconWithText";
 import API from "../Components/API";
 import { useSelector } from "react-redux";
 

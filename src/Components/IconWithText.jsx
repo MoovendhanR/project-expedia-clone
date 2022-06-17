@@ -1,4 +1,4 @@
-import { Flex, Box, Text, Icon } from "@chakra-ui/react";
+import { Flex, Box, Text, Icon, Heading } from "@chakra-ui/react";
 
 function IconWithText({ img, text, distnace, w1, w2, w3 }) {
   w1 = w1 !== "" ? w1 : "";
@@ -23,4 +23,27 @@ function IconWithText({ img, text, distnace, w1, w2, w3 }) {
   );
 }
 
-export default IconWithText;
+const TextWithIcon = ({ logo, heading, para,isLargerThan769 }) => {
+  return (
+    <Flex
+      gap={1}
+      p="10px"
+      direction="row"
+      flexWrap="wrap"
+      justify={isLargerThan769 ? "left" : "center"}
+    >
+      <Box m="10px" w="20px">
+        <Icon as={logo} h="100%" w="100%" />
+      </Box>
+      <Flex direction="column" gap="10px">
+        <Heading as="h5" size="sm">
+          {heading}
+        </Heading>
+        <Text>{para}</Text>
+      </Flex>
+    </Flex>
+  );
+};
+
+
+export {IconWithText,TextWithIcon};

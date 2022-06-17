@@ -6,6 +6,7 @@ import HotelsDetails from "../Pages/HotelsDetails";
 import HotelsDetailsViews from "../Pages/HotelsDetailsViews";
 import Maintainance from "../Pages/Maintainance";
 import PastTrips from "../Pages/PastTrips";
+import PaymentPage from "../Pages/PaymentPage";
 import SignIn from "../Pages/SignIn";
 import SignUp from "../Pages/SignUp";
 import UserProfile from "../Pages/UserProfile";
@@ -23,6 +24,7 @@ const AllRoutes=()=>{
             <Route path="/trips" element={<PastTrips/>}/>
             <Route path="/useraccount" element={<UserProfile/>}/>
             <Route path="/favourite" element={<FavouriteItems/>}/>
+            <Route path="/payment/:id" element={<PaymentPage/>}/>
             <Route path="/support" element={<Maintainance/>}/>
             <Route path="/feedback" element={<Maintainance/>}/>
             <Route path="/english" element={<Maintainance/>}/>
