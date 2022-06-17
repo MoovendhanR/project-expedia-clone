@@ -26,6 +26,7 @@ import {
     HStack,
     Spinner,
     Heading,
+    Image,
     // Center,
     // Spacer,
     // Image,
@@ -82,13 +83,14 @@ import {
         setStayData({ ...stayData, [id]: value - 1 });
       };
   
-      let navigate = useNavigate();
+      const navigate = useNavigate();
       const redirect = (e) => {
         localStorage.setItem("staySearch", JSON.stringify(stayData));
         console.log(`redirecting to /stays/${stayData.city}`);
         navigate(`/stays/${stayData.city}`);
       };
   
+     
 
     return(
         <>
@@ -371,7 +373,18 @@ import {
       setIsLoading(false);
     }, 500);
   }, []);
+  
 
+  const navigate = useNavigate();
+  const tripHandler=(e)=>{
+    navigate("/trips")
+  }
+  const accountHandler=(e)=>{
+    navigate("/useraccount")
+  }
+  const rewardsHandler=(e)=>{
+    navigate("/points")
+  }
   return (
     <Container maxW="container.xl">
       {isLoading ? (
@@ -444,7 +457,7 @@ import {
             <Flex
               h="400px"
               direction="column"
-              gap={10}
+              gap={4}
               justify="center"
               align="center"
               p={5}
@@ -453,22 +466,28 @@ import {
               textShadow="0 0 20px black"
               fontWeight="bold"
             >
-              <Box>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <Box mr={"35rem"}>
                 <Heading as="h1" color="white">
                   Save instantly with Expedia Rewards
                 </Heading>
               </Box>
-              <Box>
+              <Box mr={"35rem"}>
                 <Text color="white" fontSize="xl">
                   You can enjoy access to perks like Member Prices, saving you
                   10% or more on select hotels. Terms may apply.
                 </Text>
               </Box>
               <Box>
-                <Link to="/" mb="5%" mt="2%" w="200px" size="lg">
+                <Link to="/" mb="3%" mt="1%" w="200px" size="lg" >
                   <Button
-                    mb="5%"
-                    mt="2%"
+                  mr={"35rem"}
+                    mb="3%"
+                    mt="1%"
                     w="200px"
                     colorScheme="blue"
                     size="lg"
@@ -479,6 +498,85 @@ import {
               </Box>
             </Flex>
           </Container>
+          <br/>
+
+       <Heading mr={"51%"}>
+       Here to help keep you on the move
+       </Heading>
+          <Flex>
+            <Container
+            boxShadow={BoxShadow}
+            borderRadius="10px"
+            bgPosition="center"
+            bgRepeat="no-repeat"
+            bgSize="cover"
+            mt={"15px"}
+            h={"100px"}
+            cursor="pointer"
+            onClick={tripHandler}
+            >
+              <Box>
+                <Box display="flex" justifyContent="space-between" mt="1rem">
+                
+                  <Text fontSize="25px">Change or cancel a trip</Text>
+                  <Image width="20px" hight="20px" src="https://forever.travel-assets.com/flex/flexmanager/images/2021/04/08/icon__mode_edit.svg" alt="tripspage"/>
+            
+                </Box>
+                <Box mt="0.5rem" mr="5px">
+                  <Text>Make updates to your itinerary or cancel a booking </Text>
+                </Box>
+              </Box>
+            </Container>
+            <Container
+             boxShadow={BoxShadow}
+             borderRadius="10px"
+             bgPosition="center"
+             bgRepeat="no-repeat"
+             bgSize="cover"
+             mt={"15px"}
+             ml={"17px"}
+             h={"100px"}
+             cursor="pointer"
+             onClick={accountHandler}
+            >
+            <Box>
+                <Box display="flex" justifyContent="space-between" mt="1rem">
+                  <Text fontSize="25px">Use a credit or coupen</Text>
+                  <Image width="20px" hight="20px" src="https://forever.travel-assets.com/flex/flexmanager/images/2021/04/08/icon__monetization_on.svg" alt="tripspage"/>
+                </Box>
+                <Box mt="0.5rem" mr="50px">
+                  <Text color="gray">Apply a coupon code or credit to a new trip</Text>
+                </Box>
+              </Box>
+
+            </Container>
+            <Container
+            boxShadow={BoxShadow}
+            borderRadius="10px"
+            bgPosition="center"
+            bgRepeat="no-repeat"
+            bgSize="cover"
+            mt={"15px"}
+            ml={"17px"}
+            h={"100px"}
+            cursor="pointer"
+            onClick={rewardsHandler}
+            >
+              <Box >
+                <Box display="flex" justifyContent="space-between" mt="1rem">
+                  <Text fontSize="25px">Track Your refund</Text>
+                  <Image width="20px" hight="20px" src="https://forever.travel-assets.com/flex/flexmanager/images/2021/04/08/icon__chat.svg" alt="tripspage"/>
+                </Box>
+                <Box mt="0.5rem" mr="20px" >
+                  <Text color="gray">Check the status of a refund currently in progress</Text>
+                </Box>
+              </Box>
+
+            </Container>
+            </Flex>
+
+
+
           <Container
             boxShadow={BoxShadow}
             maxW="container.xl"
@@ -487,7 +585,7 @@ import {
             bgPosition="center"
             bgRepeat="no-repeat"
             bgSize="cover"
-            mt={"50px"}
+            mt={"30px"}
             h={"300px"}
           >
             <Flex
@@ -500,15 +598,18 @@ import {
               color="white"
               textShadow="0 0 20px black"
               fontWeight="bold"
-              gap={"30px"}
+              gap={"20px"}
             >
-              <Box>
-                <Heading as="h3" color="white" fontSize="20px">
+             <br/>
+              
+             
+              <Box mr={"40rem"} textShadow="0 0 20px black">
+                <Heading  as="h3" color="white" fontSize="20px">
                   Plan ahead and save
                 </Heading>
               </Box>
-              <Box>
-                <Heading as="h3" color="white" fontSize="20px">
+              <Box mr={"40rem"}>
+                <Heading textShadow="0 0 20px black" as="h3" color="white" fontSize="20px">
                   Book 60 days in advance for 20% off seletct stays.
                 </Heading>
               </Box>
