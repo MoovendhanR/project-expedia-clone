@@ -361,7 +361,7 @@ import {
           borderBottom: "2px solid blue",
           color: hoverColor,
         }}
-        _hover={{ borderBottom: "1px solid blue", color: hoverColor }}
+        _hover={{ borderBottom: "2px solid red", color: hoverColor }}
       >
         {name}
       </Tab>
@@ -412,6 +412,8 @@ import {
                 <Flex
                   flexWrap="wrap"
                   justify="center"
+                  backgroundColor= 'gray'
+                  borderRadius="10px"
                   gap={isLargerThan768 ? "2" : null}
                 >
                   <TabSection name={"Stays"} />
