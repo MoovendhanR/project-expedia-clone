@@ -8,6 +8,7 @@ import PastTrips from "../Pages/PastTrips";
 import SignIn from "../Pages/SignIn";
 import SignUp from "../Pages/SignUp";
 import UserProfile from "../Pages/UserProfile";
+import NotFound from "./NotFound";
 
 const AllRoutes=()=>{
     return(
@@ -24,6 +25,8 @@ const AllRoutes=()=>{
             <Route path="/feedback" element={<Maintainance/>}/>
             <Route path="/english" element={<Maintainance/>}/>
             <Route path="/points" element={<Maintainance/>}/>
+            <Route path="/*" element={<NotFound/>}/>
+
 
 
 
