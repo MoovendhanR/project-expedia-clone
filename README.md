@@ -56,7 +56,7 @@ Menubar contains stays, flights, cars, Packages Section a person can directly vi
 
 PlacesList Page gives list of places along with the Name, rating, review, Price and add or delete place to favorite list.
 <p align="center"> 
-    <img src="https://user-images.githubusercontent.com/87975437/174444782-83087583-95b0-4fd2-9564-a376f250cf58.png"/>
+   <img src="https://user-images.githubusercontent.com/87975437/174444992-393a8ddd-a987-4458-ab01-ab5b8a3eef69.png"/>
 
 </p>
 
@@ -64,5 +64,5 @@ PlacesList Page gives list of places along with the Name, rating, review, Price 
 ## Hotel detailed view
 PlaceDetail Page shows the detailed view of the Place and aminities and map view of location and nearby places and distance. 
 <p align="center"> 
-    <img src="(https://user-images.githubusercontent.com/87975437/174444853-fcb58647-d3e3-410d-ad90-8a0818c015de.png)"/>
+    <img src="https://user-images.githubusercontent.com/87975437/174444782-83087583-95b0-4fd2-9564-a376f250cf58.png"/>
 </p>
