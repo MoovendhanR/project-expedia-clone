@@ -103,3 +103,26 @@ A Person can create a new account or he can signin into exciting account also he
     <img src="https://user-images.githubusercontent.com/96103433/161424949-6750f605-9a1a-474e-bb67-60e582704f99.PNG"/>
 </p>
 
+## Trips
+
+A person can view all his trips
+<p align="center"> 
+    <img src="https://user-images.githubusercontent.com/87975437/174445670-27bb5017-800d-4bc6-b11d-6f978273b9f7.png"/>
+</p>
+
+
+## Under Maintainance
+
+If a requested page is under maintanance then Under Maintainance page will display
+
+<p align="center"> 
+    <img src="https://user-images.githubusercontent.com/96103433/161424985-f242eab2-2b32-45f6-af05-c631bd7454e4.PNG"/>
+</p>
+
+## Page not found
+
+If wrong route called then 404 not found page will display.
+<p align="center"> 
+    <img src="https://user-images.githubusercontent.com/96103433/161425093-70e2c38a-d257-4186-b755-a29cb0fdfdf1.PNG"/>
+</p>
+
