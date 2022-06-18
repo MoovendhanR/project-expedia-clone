@@ -24,11 +24,28 @@ Expedia.co.in is an online travel agency owned by Expedia Group, an Indian onlin
 ## Landing Page
 Navbar is visible on the top of Landing Page from their a person can visit the pages visible in Navbar 
 
-
 #### landing page snaps
 <p align="center"> 
     <img src="https://user-images.githubusercontent.com/87975437/174444023-3cad62bb-d927-4707-8047-00997d86a1bc.png"/>
   <img src="https://user-images.githubusercontent.com/87975437/174444032-b9644da3-7108-43a8-b65a-336fa8d02b9e.png"/>
    <img src="https://user-images.githubusercontent.com/87975437/174444035-3e47cb8e-8d1f-49dd-b7ab-fc83198704cc.png"
+</p>
+    
+####Navbar
+In Navbar a Person can SignUp/SignIn and SignOut and he can see all of his trips and he can see his Favorite list of Places.
+<p align="center"> 
+    <img src="https://user-images.githubusercontent.com/96103433/161424845-4a8536a8-611d-4edb-8c4f-8f9ecd13c48c.PNG"/>
+</p>
+
+## Menubar
+Menubar contains stays, flights, cars, Packages Section a person can directly visit the page which he select. and person can search places using name of the place.
+<p align="center"> 
+    <img src="https://user-images.githubusercontent.com/96103433/161424859-4aa5b7b8-8b62-4e2e-a09d-b27db7d1559b.PNG"/>
+</p>
+
+
+## Footer
+<p align="center"> 
+    <img src="https://user-images.githubusercontent.com/96103433/161424865-08b421f2-76ee-4064-9e9e-d79c2efbd6d1.PNG"/>
 </p>
 
