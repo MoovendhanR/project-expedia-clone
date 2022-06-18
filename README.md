@@ -126,3 +126,36 @@ If wrong route called then 404 not found page will display.
     <img src="https://user-images.githubusercontent.com/96103433/161425093-70e2c38a-d257-4186-b755-a29cb0fdfdf1.PNG"/>
 </p>
 
+## Conntributor
+This website is fully made by me with the help of some of my friends
+(https://github.com/MoovendhanR)
+
+
+## Deployment Link
+[https://expedia-co-in-clone.netlify.app/](https://project-expedia-clone.vercel.app/)
+
+## Run Locally
+
+```bash
+  git clone https://github.com/MoovendhanR/project-expedia-clone.git
+```
+
+Go to the project directory
+
+```bash
+  cd project-expedia-clone
+```
+
+Install dependencies
+
+```bash
+  npm i
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
+
