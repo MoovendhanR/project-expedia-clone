@@ -58,6 +58,7 @@ PlacesList Page gives list of places along with the Name, rating, review, Price 
 <p align="center"> 
    <img src="https://user-images.githubusercontent.com/87975437/174444992-393a8ddd-a987-4458-ab01-ab5b8a3eef69.png"/>
 
+
 </p>
 
 
@@ -65,4 +66,18 @@ PlacesList Page gives list of places along with the Name, rating, review, Price 
 PlaceDetail Page shows the detailed view of the Place and aminities and map view of location and nearby places and distance. 
 <p align="center"> 
     <img src="https://user-images.githubusercontent.com/87975437/174444782-83087583-95b0-4fd2-9564-a376f250cf58.png"/>
+</p>
+
+## Review and book
+
+Review and book contains Detailed information of selected Place and Price details and place booking details.
+<p align="center">
+
+    <img src="(https://user-images.githubusercontent.com/87975437/174445249-cee57d0d-727b-4ff8-b8a8-b2de479904be.png)"/>
+</p>
+
+## Payment
+A Person can copmplete his booking by completing the preffered payment method in Payment page.
+<p align="center"> 
+    <img src="(https://user-images.githubusercontent.com/87975437/174445208-8b451342-3643-4b8a-ba04-aa4f078cef88.png)"/>
 </p>
