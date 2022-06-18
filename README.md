@@ -80,3 +80,26 @@ A Person can copmplete his booking by completing the preffered payment method in
 <p align="center"> 
     <img src="https://user-images.githubusercontent.com/87975437/174445208-8b451342-3643-4b8a-ba04-aa4f078cef88.png"/>
 </p>
+
+
+
+## SignUp and SignIn
+
+A Person can create a new account or he can signin into exciting account also he can signin through google outh.
+<p align="center"> 
+    <img src="https://user-images.githubusercontent.com/87975437/174445521-97ab7752-186b-4d0a-a4e5-2b777e88a618.png"/>
+</p>
+
+
+#### SignUp
+<p align="center"> 
+    <img src="https://user-images.githubusercontent.com/96103433/161424944-ce398ec8-dc30-496c-a575-1774733e7cbc.PNG"/>
+</p>
+
+
+
+#### SignIn
+<p align="center"> 
+    <img src="https://user-images.githubusercontent.com/96103433/161424949-6750f605-9a1a-474e-bb67-60e582704f99.PNG"/>
+</p>
+
