@@ -72,8 +72,7 @@ PlaceDetail Page shows the detailed view of the Place and aminities and map view
 
 Review and book contains Detailed information of selected Place and Price details and place booking details.
 <p align="center">
-
-    <img src="https://user-images.githubusercontent.com/87975437/174445249-cee57d0d-727b-4ff8-b8a8-b2de479904be.png"/>
+    <img src="https://user-images.githubusercontent.com/87975437/174445249-cee57d0d-727b-4ff8-b8a8-b2de479904be.png" />
 </p>
 
 ## Payment
