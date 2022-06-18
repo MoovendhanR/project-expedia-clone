@@ -116,14 +116,15 @@ A person can view all his trips
 If a requested page is under maintanance then Under Maintainance page will display
 
 <p align="center"> 
-    <img src="https://user-images.githubusercontent.com/96103433/161424985-f242eab2-2b32-45f6-af05-c631bd7454e4.PNG"/>
+    <img src="https://user-images.githubusercontent.com/87975437/174446591-952a6904-cdf9-4c39-9562-0f0616ea699d.png"/>
 </p>
 
 ## Page not found
 
+
 If wrong route called then 404 not found page will display.
 <p align="center"> 
-    <img src="https://user-images.githubusercontent.com/96103433/161425093-70e2c38a-d257-4186-b755-a29cb0fdfdf1.PNG"/>
+    <img src="https://user-images.githubusercontent.com/87975437/174446561-2141a81d-7473-4de5-bb12-767e0d7f1300.png"/>
 </p>
 
 ## Conntributor
