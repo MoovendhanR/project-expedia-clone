@@ -40,8 +40,9 @@ In Navbar a Person can SignUp/SignIn and SignOut and he can see all of his trips
 ## Menubar
 Menubar contains stays, flights, cars, Packages Section a person can directly visit the page which he select. and person can search places using name of the place.
 <p align="center"> 
-    <img src="https://user-images.githubusercontent.com/96103433/161424859-4aa5b7b8-8b62-4e2e-a09d-b27db7d1559b.PNG"/>
+    <img src="https://user-images.githubusercontent.com/87975437/174444436-0b4ed21b-493c-4750-9a2a-26e3b3d8a4a1.png"/>
 </p>
+
 
 
 ## Footer
