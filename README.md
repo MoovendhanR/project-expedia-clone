@@ -104,13 +104,10 @@ A Person can create a new account or he can signin into exciting account also he
 </p>
 
 ## Trips
-
 A person can view all his trips
 <p align="center"> 
     <img src="https://user-images.githubusercontent.com/87975437/174445670-27bb5017-800d-4bc6-b11d-6f978273b9f7.png"/>
 </p>
-
-
 ## Under Maintainance
 
 If a requested page is under maintanance then Under Maintainance page will display
@@ -133,7 +130,7 @@ This website is fully made by me with the help of some of my friends
 
 
 ## Deployment Link
-[https://expedia-co-in-clone.netlify.app/](https://project-expedia-clone.vercel.app/)
+[https://project-expedia-clone.vercel.app/](https://project-expedia-clone.vercel.app/)
 
 ## Run Locally
 
