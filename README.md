@@ -31,7 +31,7 @@ Navbar is visible on the top of Landing Page from their a person can visit the p
    <img src="https://user-images.githubusercontent.com/87975437/174444035-3e47cb8e-8d1f-49dd-b7ab-fc83198704cc.png"
 </p>
     
-####Navbar
+#### Navbar
 In Navbar a Person can SignUp/SignIn and SignOut and he can see all of his trips and he can see his Favorite list of Places.
 <p align="center"> 
     <img src="https://user-images.githubusercontent.com/96103433/161424845-4a8536a8-611d-4edb-8c4f-8f9ecd13c48c.PNG"/>
