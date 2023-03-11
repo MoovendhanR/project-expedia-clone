@@ -38,14 +38,17 @@ function SignUp() {
     const { id, value } = e.target;
     setUserData({ ...userData, [id]: value });
   };
+  console.log(userData)
+  const header = {"Access-Control-Allow-Origin":"*"}
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios
-      .post(`${API()}/auth`, {
+    axios.post(`${API()}/auth`, {
         email: userData.email,
         firstName: userData.firstName,
         lastName: userData.lastName,
         password: userData.password,
+        header
       })
       .then((res) => {
         setTimeout(() => {

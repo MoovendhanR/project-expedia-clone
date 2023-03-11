@@ -31,7 +31,6 @@ const AllRoutes=()=>{
             <Route path="/points" element={<Maintainance/>}/>
             <Route path="/*" element={<NotFound/>}/>
 
-
         </Routes>
     )
 
