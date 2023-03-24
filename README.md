@@ -130,7 +130,7 @@ This website is fully made by me with the help of some of my friends
 
 
 ## Deployment Link
-[https://project-expedia-clone.vercel.app/](https://project-expedia-clone.vercel.app/)
+[https://project-expedia-clone.vercel.app/](https://expedia-co-in-clone.netlify.app/)
 
 ## Run Locally
 
